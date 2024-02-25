@@ -20,16 +20,16 @@ Python is a high-level, interpreted, dynamic programming language. Python's desi
 Some of the most basic structures used in Python are:
 
 1. Variables: Python supports several types of variables. 
-   - Integers: These are positive or negative whole numbers with no decimal point.
-     - Example: x = 5
-   - Floats: These are real numbers with a decimal point.
-     - Example: y = 30.7
-   - Strings: These are sequences of characters.
-     - Example: name = "Robotics".
-   - Booleans: These represent if the variable is either True or False.
-     - Example: a = True
-   - Complex: These are numbers with a real and imaginary component represented as x + yj.
-     - Example: b = 1 + 2j
+   - Integers: These are positive or negative whole numbers with no decimal point. Example:
+     -  x = 5
+   - Floats: These are real numbers with a decimal point. Example:
+     -  y = 30.7
+   - Strings: These are sequences of characters. Example:
+     - name = "Robotics".
+   - Booleans: These represent if the variable is either True or False. Example:
+     - a = True
+   - Complex: These are numbers with a real and imaginary component represented as x + yj. Example:
+     - b = 1 + 2j
 
 
 It is necessary to distinguish between local and global variables, Python global variables are those that are not declared inside any function and have a global scope, whereas Python local variables are those that are created inside a function and their scope is confined to that function alone.
