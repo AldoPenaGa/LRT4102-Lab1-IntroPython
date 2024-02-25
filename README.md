@@ -74,15 +74,21 @@ x = 10
 y = 20
 
 if x < y:
+
     print("x is less than y")
+    
 elif x == y:
+
     print("x is equal to y")
+    
 else:
+
     print("x is greater than y")
 
 7. For loop: The for loop is used to iterate over a sequence (like a list, tuple, string) or other iterable objects. Example:
 
 for i in range(5):
+
     print(i)
 
 8. While loop: The while loop is used to iterate as long as the test expression (condition) is true. Example:
