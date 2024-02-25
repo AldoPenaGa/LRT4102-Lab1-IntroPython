@@ -1,7 +1,7 @@
-barras = int(input("Introduce el número de barras vendidas que no son frescas: "))
-precio = 3.49 
-descuento = 0.6
-coste = barras * precio * (1 - descuento)
-print("El coste de una barra fresca es " + str(precio) + "€")
-print("El descuento sobre una barra no fresca es " + str(descuento * 100) + "%")
-print("El coste final a pagar es " + str(round(coste, 2)) + "€")
+bars = int(input("Enter the number of sold bars that are not fresh: "))
+price = 3.49 
+discount = 0.6
+cost = bars * price * (1 - discount)
+print("The cost of a fresh bar is " + str(price) + "€")
+print("The discount on a non-fresh bar is " + str(discount * 100) + "%")
+print("The final cost to pay is " + str(round(cost, 2)) + "€")
