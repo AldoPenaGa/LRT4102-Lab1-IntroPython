@@ -2,7 +2,7 @@ import random
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 num = random.choice(numbers)
-print(num)
+#print(num)
 
 counter = 0
 guess = 0
