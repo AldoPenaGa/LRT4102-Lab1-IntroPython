@@ -26,6 +26,6 @@
 
 ### Contributors
 
-| Name                          | ID'S   | Github                               |
+| Name                          | ID   | Github                               |
 |-------------------------------|--------|--------------------------------------|
 | Aldo Oziel Peña Gamboa        | 169382 | https://github.com/AldoPenaGa        |
