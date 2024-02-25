@@ -1,8 +1,6 @@
-horas = int(input("Introduce las horas trabajadas: "))
-costo = int(input("Introduce el costo por hora: "))
+hours = int(input("Enter the number of hours worked: "))
+cost = int(input("Enter the cost per hour: "))
 
-total = horas * costo
+total = hours * cost
 
 print(str(total))
-
-    
