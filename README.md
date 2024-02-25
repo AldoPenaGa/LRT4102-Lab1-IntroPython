@@ -29,6 +29,8 @@ The following problems were asked :
 |-----------|
 | o o o o o |
 | o o o o X |
+| o o o o o |
+| o X X X o |
 
 It should also print the route it followed. Display a second map with the ‘path’ followed by the robot using arrows.
 
