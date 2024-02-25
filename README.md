@@ -34,7 +34,7 @@ Some of the most basic structures used in Python are:
 
 It is necessary to distinguish between local and global variables, Python global variables are those that are not declared inside any function and have a global scope, whereas Python local variables are those that are created inside a function and their scope is confined to that function alone.
 
-2. Basic Math Operations: Python supports a variety of mathematical operations.
+2. Basic Math Operations: Python supports a variety of mathematical operations. Example:
 
 x = 10
 y = 20
@@ -53,28 +53,52 @@ print(x ** y) # Exponentiation
 
 print(x // y) # Floor division
 
-3. Lists: A list in Python is a collection of elements that can be of any kind. The elements in a list are contained in square brackets [ ] and separated by commas. You may modify the content of a list without restrictions. You can access list items by referring to the index number. Python lists index always starts from 0.
+3. Lists: A list in Python is a collection of elements that can be of any kind. The elements in a list are contained in square brackets [ ] and separated by commas. You may modify the content of a list without restrictions. You can access list items by referring to the index number. Python lists index always starts from 0. Example:
 
   - my_list = [1, 2, "Py", 3.4]
     - rint(my_list[0])  # Output: 1
 
-4. Tuples: They are similar to lists. The distinction between the two is that after a tuple has been established, its elements cannot be modified, but as how we stated, items in a list can be. A tuple is formed by wrapping all of the elements in parenthesis (), separated by commas.
+4. Tuples: They are similar to lists. The distinction between the two is that after a tuple has been established, its elements cannot be modified, but as how we stated, items in a list can be. A tuple is formed by wrapping all of the elements in parenthesis (), separated by commas. Example:
 
   - my_tuple = ("systems", 2, "Design", 4.5)
-    - print(my_tuple[0])  # Output: 1
+    - print(my_tuple[0])  # Output: Systems
    
-5. Dictionaries: It is an unordered collection of items. Each item has a key/value pair. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+5. Dictionaries: It is an unordered collection of items. Each item has a key/value pair. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value. Example:
 
-  - my_dict = {
+  - my_dict = {"brand": "UniversalRobots", "model": "UR5", "year": 2017}
+    - print(my_dict["brand"])  # Output: UniversalRobots
     
-    "brand": "Ford",
-    
-    "model": "Mustang",
-    
-    "year": 1964
-}
-    - print(my_dict["brand"])  # Output: Ford
+6. If Condition: Python supports the usual logical conditions from maths. These conditions can be used in many ways, most commonly in “if statements” and loops. Example:
 
+x = 10
+y = 20
+
+if x < y:
+
+    print("x is less than y")
+    
+elif x == y:
+
+    print("x is equal to y")
+    
+else:
+
+    print("x is greater than y")
+
+7. For loop: The for loop is used to iterate over a sequence (like a list, tuple, string) or other iterable objects. Example:
+
+for i in range(5):
+    print(i)
+
+8. While loop: The while loop is used to iterate as long as the test expression (condition) is true. Example:
+
+i = 0
+
+while i < 5:
+
+    print(i)
+    
+    i += 1
 
 ### Problems
 The following problems were asked :
