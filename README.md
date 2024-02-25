@@ -40,11 +40,17 @@ x = 10
 y = 20
 
 print(x + y)  # Addition
+
 print(x - y)  # Subtraction
+
 print(x * y)  # Multiplication
+
 print(x / y)  # Division
+
 print(x % y)  # Modulus
+
 print(x ** y) # Exponentiation
+
 print(x // y) # Floor division
 
 3. Lists: A list in Python is a collection of elements that can be of any kind. The elements in a list are contained in square brackets [ ] and separated by commas. You may modify the content of a list without restrictions. You can access list items by referring to the index number. Python lists index always starts from 0.
@@ -60,8 +66,11 @@ print(x // y) # Floor division
 5. Dictionaries: It is an unordered collection of items. Each item has a key/value pair. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
 
   - my_dict = {
+    
     "brand": "Ford",
+    
     "model": "Mustang",
+    
     "year": 1964
 }
     - print(my_dict["brand"])  # Output: Ford
