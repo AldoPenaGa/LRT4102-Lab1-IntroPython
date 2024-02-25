@@ -15,6 +15,23 @@
 
 
 ### Introduction
+Python is a high-level, interpreted, dynamic programming language. Python's design philosophy promotes the readability of code by the use of strong indentation. It supports a variety of programming paradigms, including structured (specifically procedural), object-oriented, and functional programming. Python is one of today's most popular and quickly growing programming languages. It is commonly used in scientific computing, data analysis, machine learning, artificial intelligence, robotics applications, web development, and network servers. Python's simplicity has encouraged many developers to create new machine-learning packages, making it a popular language for artificial intelligence.
+
+Some of the most basic structures used in Python are:
+
+1. Variables: Python supports several types of variables. Example: x = 5
+   - Integers: These are positive or negative whole numbers with no decimal point.
+   - Floats: These are real numbers with a decimal point. Example: y = 30.7
+   - Strings: These are sequences of characters. Example: name = "Robotics".
+   - Booleans: These represent if the variable is either True or False. Example: a = True
+   - Complex: These are numbers with a real and imaginary component represented as x + yj. Example: b = 1 + 2j
+| Variables |
+|-----------|
+|x = 10 # integer|
+|y = 20.5 # float|
+|z = "Hello World" # string|
+|a = True # boolean|
+|b = 1 + 2j # complex|
 
 
 ### Problems
