@@ -94,12 +94,10 @@ for i in range(5):
 8. While loop: The while loop is used to iterate as long as the test expression (condition) is true. Example:
 
 i = 0
-
 while i < 5:
-
     print(i)
-    
     i += 1
+
 
 ### Problems
 The following problems were asked :
