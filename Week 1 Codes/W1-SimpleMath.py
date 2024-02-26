@@ -1,7 +1,10 @@
+# Asks user to input an n term
 n = int(input("Enter n: "))
 
-sum = (n *(n + 1))/2
+# Does the operation
+operation = (n *(n + 1))/2
 
-print(str(sum))
+# Prints it
+print(str(operation))
 
     
